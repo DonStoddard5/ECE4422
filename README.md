@@ -4,4 +4,4 @@
 sudo apt-get update
 ```
 Here is the picture 
-!("Profile Pic - Bebashi.jpg")
+!(IMG_0399.jpg)
