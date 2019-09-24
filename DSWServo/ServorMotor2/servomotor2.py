@@ -1,3 +1,6 @@
+#This code was adapted from the URL:
+#    https://www.raspberrypi-spy.co.uk/2018/02/basic-servo-use-with-the-raspberry-pi/
+
 #! /usr/bin/python
 
 from gpiozero import Servo
@@ -8,11 +11,13 @@ print ("servomotor.py exicuted")
 
 moveDelay=0.75
 
-myCorrection=0.2
+myCorrection=0.2 #used to correct the motion of the servo. It is servo specific
 maxPW=(2.0+myCorrection)/1000
 minPW=(1.0-myCorrection-.1)/1000
  
-servo = Servo(servoPIN,min_pulse_width=minPW,max_pulse_width=maxPW)
+servo = Servo(servoPIN,min_pulse_width=minPW,max_pulse_width=maxPW) #initalize a servo
+
+#swings the arm back and forth, because it feels like there should be some sort of startup sequence
 servo.value=-1
 sleep(moveDelay)
 servo.value=1
@@ -20,7 +25,7 @@ sleep(moveDelay)
 servo.value=0
 sleep(moveDelay)
 
-while True:
+while True: #user inputs a position for the servo. 
     servoPos = input("Enter positioin value between -1 and 1: ")
     servoPos = float(servoPos)
     if servoPos <= 1 and servoPos >= -1:
