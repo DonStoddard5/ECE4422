@@ -1,0 +1,5 @@
+setup.py
+DSWServo.egg-info/PKG-INFO
+DSWServo.egg-info/SOURCES.txt
+DSWServo.egg-info/dependency_links.txt
+DSWServo.egg-info/top_level.txt
