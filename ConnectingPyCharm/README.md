@@ -19,5 +19,7 @@ Under "Build, Execution, Deployment", select "Deployment"
 
 Next, select the "Mappings" tab
 
-![Mapping Settings}(/ConnectingPyCharm/Images/Deployment_Mappings.JPG)
+![Mapping Settings](/ConnectingPyCharm/Images/Deployment_Mappings.JPG)
 
+**Local Path:** This is where files will be stored on your local machine.
+**Deployment path:** This is where files will be uploaded to your remote machine.
