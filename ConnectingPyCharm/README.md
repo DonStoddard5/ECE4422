@@ -3,6 +3,16 @@
 
 <h2>Remote depugging</h2>
 
+From your desired project, go to the settings menu
+
+![PyCharm settings dropdown](/ConnectingPyCharm/Images/Settings_Menu.JPG)
+
+Under "Project: your_project_name", select "Project Interpreter"
+
+![Project Interpreter](/ConnectingPyCharm/Images/Project_Interpeter.JPG)
+
+From here, either select settings you've already chosen from the "Project Interpreter:" list, or click the gear on the far right and click "Add..."
+
 <h2>File Transfer to Raspberry Pi</h2>
 
 From your desired project, go to the settings menu
