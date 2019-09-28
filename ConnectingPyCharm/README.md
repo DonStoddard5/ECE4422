@@ -13,6 +13,16 @@ Under "Project: your_project_name", select "Project Interpreter"
 
 From here, either select settings you've already chosen from the "Project Interpreter:" list, or click the gear on the far right and click "Add..."
 
+From the new window, click on "SSH Interpreter" in the left panel.
+
+![SSH Interpreter](/ConnectingPyCharm/Images/sshInterpreter.JPG)
+
+**Host:** This is your remote machine's local IP address
+
+**Port:** Leave as "22"
+
+**Username:** This is the user login for the remote machine
+
 <h2>File Transfer to Raspberry Pi</h2>
 
 From your desired project, go to the settings menu
