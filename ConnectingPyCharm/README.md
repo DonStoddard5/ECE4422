@@ -23,6 +23,14 @@ From the new window, click on "SSH Interpreter" in the left panel.
 
 **Username:** This is the user login for the remote machine
 
+Click "Next" and the "Add Python Interpreter" window will appear
+
+[Add Python INterpreter](/ConnectingPyCharm/Images/Add_Python_Interpreter.JPG)
+
+**Interpreter:** This is where you select where the interpreter is on your remote machine. By deafault on Raspberry Pi, it's under "/usr/bin/python". You can leave this unchaned.
+
+**Sync Folders:** This is where your project folders will be synced. Either change it here, or see the next section for instructions.
+
 <h2>File Transfer to Raspberry Pi</h2>
 
 From your desired project, go to the settings menu
