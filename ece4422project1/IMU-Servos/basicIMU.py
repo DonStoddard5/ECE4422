@@ -81,7 +81,6 @@ def nudge(direction):  # this will nudge the servo one direction or another
     servoPos = servoPos + direction * moveIncrement  # direction is either 1 or -1, so this changes the direction the servo will move
     if servoPos > 1 or servoPos < -1:  # make sure the servo isn't outside it's range
         print("The servo is at it's maximum range. Try going the other direction")
-        time.sleep(5)  # gives you a time to stop the code
         position_data()
         return
     servo.value = servoPos  # move the servo
