@@ -31,7 +31,17 @@ For reference, here is a different picture of the Raspberry Pi I/O pins
 <h2>Running the Code</h2>
 
 <h3>basicIMU.py</h3>
-words
+You'll find the basicIMU.py file under: /ece4422project1/IMU-Servos/basicIMU.py
+
+When you run it, you'll be prompted to enter an angle
+
+![Input Prompt](/ece4422project1/readmeImages/basicIMU_firstInput.jpg)
+
+This number (in degrees), will move the servo that far from where it currently is. If the input is positive, the servo will move clockwise. If it's negative, the servo will move counter-clockwise.
+
+If the value is past the range of the servo, you'll get an error and will have to restart the program. This is a bug that needs to be fixed.
+
+![Error Prompt](/ece4422project1/readmeImages/error.JPG)
 
 <h2>fixedIMU.py<h3>
 words
