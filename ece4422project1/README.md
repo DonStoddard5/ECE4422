@@ -4,7 +4,7 @@
 
 In order to run the code, you must first wire up the hardware.
 
-![Wiring diagram](/ece4422project1/readmeImages/'Wire Diagram, Project 1_bb.jpg')
+![Wiring diagram](/ece4422project1/readmeImages/"Wire Diagram, Project 1_bb.jpg")
 
 
 
