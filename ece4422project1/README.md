@@ -44,5 +44,14 @@ If the value is past the range of the servo, you'll get an error and will have t
 ![Error Prompt](/ece4422project1/readmeImages/error.JPG)
 
 <h2>fixedIMU.py<h3>
-words
+You'll find the fixedIMU.py file under: /ece4422project1/IMU-Servos/fixedIMU.py
 
+When you run it, you'll be prompted to enter an angle
+
+![Input Prompt](/ece4422project1/readmeImages/fixedIMU_firstInput.jpg)
+
+This number (in degrees), will move the servo that far from where it currently is. If the input is positive, the servo will move clockwise. If it's negative, the servo will move counter-clockwise. From there, the program goes into a loop. The servo arm will move to stay in the same orientation as you physically rotate the servo around.
+
+If the value is past the range of the servo, you'll get an error and will have to restart the program. This is a bug that needs to be fixed.
+
+![Error Prompt](/ece4422project1/readmeImages/error.JPG)
