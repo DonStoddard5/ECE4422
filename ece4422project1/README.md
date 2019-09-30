@@ -23,3 +23,8 @@ In order to run the code, you must first wire up the hardware.
 **Purple Wire:** goes to SCL (pin 5 a.k.a. GPIO3)
 
 **Gray Wire:** goes to SDA (pin 3 a.k.a. GPIO2
+
+For reference, here is a different picture of the Raspberry Pi I/O pins
+
+![Raspberry Pi Diagram](/ece4422project1/readmeImages/raspberry_pi_circuit_note_fig2a.jpg)
+
