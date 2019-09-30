@@ -43,7 +43,7 @@ If the value is past the range of the servo, you'll get an error and will have t
 
 ![Error Prompt](/ece4422project1/readmeImages/error.JPG)
 
-<h2>fixedIMU.py<h3>
+<h3>fixedIMU.py</h3>
 You'll find the fixedIMU.py file under: /ece4422project1/IMU-Servos/fixedIMU.py
 
 When you run it, you'll be prompted to enter an angle
