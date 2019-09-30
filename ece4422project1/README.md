@@ -28,3 +28,11 @@ For reference, here is a different picture of the Raspberry Pi I/O pins
 
 ![Raspberry Pi Diagram](/ece4422project1/readmeImages/raspberry_pi_circuit_note_fig2a.jpg)
 
+<h2>Running the Code</h2>
+
+<h3>basicIMU.py</h3>
+words
+
+<h2>fixedIMU.py<h3>
+words
+
