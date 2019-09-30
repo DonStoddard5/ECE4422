@@ -7,6 +7,7 @@ In order to run the code, you must first wire up the hardware.
 ![Wiring diagram](/ece4422project1/readmeImages/WireDiagramProject1.jpg)
 
 <h3>For the servo</h3>
+
 **Black Wire:** goes to ground (pin 9)
 
 **Red Wire:** goes to 3.3 volts (pin 1)
@@ -14,6 +15,7 @@ In order to run the code, you must first wire up the hardware.
 **White Wire:** goes to pin 11 (a.k.a. GPIO17
 
 <h3>For the IMU</h3>
+
 **Green Wire:** goes to 5 volts (pin 2)
 
 **Blue Wire:** goes to ground (pin 6)
